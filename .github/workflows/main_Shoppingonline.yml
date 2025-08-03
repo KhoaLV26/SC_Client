@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/khoalv26/newshoppingonline:${{ github.sha }}
+        tags: khoalv26/newshoppingonline:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
