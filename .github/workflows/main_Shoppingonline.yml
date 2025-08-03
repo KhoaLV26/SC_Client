@@ -32,7 +32,7 @@ jobs:
         context: ./app
         push: true
         tags: khoalv26/newshoppingonline:${{ github.sha }}
-        file: ./app/Dockerfile
+        file: ./Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
