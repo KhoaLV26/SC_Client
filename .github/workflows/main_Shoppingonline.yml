@@ -30,7 +30,8 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: khoalv26/newshoppingonline:latest
+        file: ./Dockerfile
+        tags: latest
 
   deploy:
     runs-on: ubuntu-latest
