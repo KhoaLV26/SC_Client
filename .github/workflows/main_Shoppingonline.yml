@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: khoalv26/newshoppingonline:${{ github.sha }}
+        tags: khoalv26/newshoppingonline:latest
 
   deploy:
     runs-on: ubuntu-latest
@@ -47,4 +47,4 @@ jobs:
         app-name: 'Shoppingonline'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_d78000c681f04897a8d9b111e370711e }}
-        images: 'khoalv26/newshoppingonline:${{ github.sha }}'
+        images: 'khoalv26/newshoppingonline:latest'
