@@ -29,9 +29,10 @@ jobs:
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
+        context: ./Shopping.Client
+        file: ./Shopping.Client/Dockerfile
         push: true
-        file: ./Dockerfile
-        tags: latest
+        tags: khoalv26/newshoppingonline:latest
 
   deploy:
     runs-on: ubuntu-latest
