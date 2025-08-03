@@ -48,4 +48,4 @@ jobs:
         app-name: 'Shoppingonline'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_d78000c681f04897a8d9b111e370711e }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_3b5862927e754dbb9fb46e3272e12297 }}/khoalv26/newshoppingonline:${{ github.sha }}'
+        images: 'khoalv26/newshoppingonline:${{ github.sha }}'
