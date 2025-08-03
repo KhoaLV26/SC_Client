@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_3b5862927e754dbb9fb46e3272e12297 }}/khoalv26/newshoppingonline:${{ github.sha }}
+        tags: index.docker.io/khoalv26/newshoppingonline:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
