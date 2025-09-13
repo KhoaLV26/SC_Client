@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Data\\Data.cs",
+              "RelativeDocumentMoniker": "Shopping.Client\\Data\\Data.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Data\\Data.cs",
+              "RelativeToolTip": "Shopping.Client\\Data\\Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T07:52:47.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Data\\ProductContext.cs",
               "RelativeDocumentMoniker": "Shopping.API\\Data\\ProductContext.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Data\\ProductContext.cs",
               "RelativeToolTip": "Shopping.API\\Data\\ProductContext.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFUAAAARAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwFgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-13T07:44:34.917Z",
               "EditorCaption": ""
