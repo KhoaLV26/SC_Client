@@ -27,6 +27,7 @@ namespace Shopping.API.Data
             if (!existProduct)
             {
                 productCollection.InsertManyAsync(GetPreconfiguredProducts());
+              //  GetPreconfiguredProducts();
             }
         }
 
