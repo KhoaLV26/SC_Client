@@ -18,25 +18,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
-        },
-        "compile": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "related": ".xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -494,21 +475,6 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
-      ]
-    },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.8": {
-      "sha512": "5XuTlEkJe7tzY1UQ0FndajTv/SB4PPaYRaAokZVGevoHTkioEF2bbvPxhrqaYr7ayHaN1KItzKsAwMWGil6wRg==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
-        "microsoft.aspnetcore.authentication.jwtbearer.5.0.8.nupkg.sha512",
-        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.1": {
@@ -1288,7 +1254,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.8",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "MongoDB.Driver >= 3.0.0",
@@ -1301,11 +1266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\Shopping.API.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Shopping.API.csproj",
       "projectName": "Shopping.API",
-      "projectPath": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\Shopping.API.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Shopping.API.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1340,13 +1305,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": {
-            "target": "Package",
-            "version": "[5.0.8, )",
-            "noWarn": [
-              "NU1605"
-            ]
-          },
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
             "version": "[5.0.1, )",
@@ -1389,17 +1347,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNetCore.Authentication.JwtBearer' 5.0.8 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q7cg-43mg-qp69",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

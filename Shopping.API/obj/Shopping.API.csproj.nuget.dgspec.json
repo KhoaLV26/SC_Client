@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\Shopping.API.csproj": {}
+    "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Shopping.API.csproj": {}
   },
   "projects": {
-    "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\Shopping.API.csproj": {
+    "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Shopping.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\Shopping.API.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Shopping.API.csproj",
         "projectName": "Shopping.API",
-        "projectPath": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\Shopping.API.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Shopping.API.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.API\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,13 +46,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[5.0.8, )",
-              "noWarn": [
-                "NU1605"
-              ]
-            },
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[5.0.1, )",

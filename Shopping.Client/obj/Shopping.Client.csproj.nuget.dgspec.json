@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.Client\\Shopping.Client.csproj": {}
+    "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Shopping.Client.csproj": {}
   },
   "projects": {
-    "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.Client\\Shopping.Client.csproj": {
+    "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Shopping.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.Client\\Shopping.Client.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Shopping.Client.csproj",
         "projectName": "Shopping.Client",
-        "projectPath": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.Client\\Shopping.Client.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Shopping.Client.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\COMPANY\\Devops\\SC_Client\\SC_Client\\Shopping.Client\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

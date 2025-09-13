@@ -33,7 +33,6 @@
     ".NETCoreApp,Version=v5.0": {
       "Shopping.API/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.8",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "MongoDB.Driver": "3.0.0",
@@ -341,20 +340,6 @@
         },
         "compile": {
           "lib/net5.0/DnsClient.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.8": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.7.1"
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "5.0.8.0",
-            "fileVersion": "5.0.821.31805"
-          }
-        },
-        "compile": {
-          "lib/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.1": {
@@ -2317,13 +2302,6 @@
       "sha512": "sha512-4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "path": "dnsclient/1.6.1",
       "hashPath": "dnsclient.1.6.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5XuTlEkJe7tzY1UQ0FndajTv/SB4PPaYRaAokZVGevoHTkioEF2bbvPxhrqaYr7ayHaN1KItzKsAwMWGil6wRg==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/5.0.8",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.5.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/5.0.1": {
       "type": "package",
