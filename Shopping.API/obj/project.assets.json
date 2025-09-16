@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -210,12 +210,12 @@
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/MongoDB.Bson.dll": {
+          "lib/net6.0/MongoDB.Bson.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MongoDB.Bson.dll": {
+          "lib/net6.0/MongoDB.Bson.dll": {
             "related": ".xml"
           }
         }
@@ -232,12 +232,12 @@
           "ZstdSharp.Port": "0.7.3"
         },
         "compile": {
-          "lib/netstandard2.1/MongoDB.Driver.dll": {
+          "lib/net6.0/MongoDB.Driver.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MongoDB.Driver.dll": {
+          "lib/net6.0/MongoDB.Driver.dll": {
             "related": ".xml"
           }
         }
@@ -444,10 +444,10 @@
       "ZstdSharp.Port/0.7.3": {
         "type": "package",
         "compile": {
-          "lib/net5.0/ZstdSharp.dll": {}
+          "lib/net6.0/ZstdSharp.dll": {}
         },
         "runtime": {
-          "lib/net5.0/ZstdSharp.dll": {}
+          "lib/net6.0/ZstdSharp.dll": {}
         }
       }
     }
@@ -1253,7 +1253,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "MongoDB.Driver >= 3.0.0",
@@ -1277,7 +1277,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -1285,8 +1285,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -1302,8 +1302,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
