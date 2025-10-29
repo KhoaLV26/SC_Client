@@ -10,6 +10,7 @@ trigger:
   include:
   - Shopping.API/*
   - shopping-api.yml
+  - /aks/shoppingapi/*
 
 resources:
 - repo: self
