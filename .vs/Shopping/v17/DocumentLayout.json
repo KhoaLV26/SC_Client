@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\k8s\\testing-service.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\k8s\\testing-service.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\data\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|solutionrelative:shopping.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1345DCB2-4284-4A3B-BD59-BE9FB31FD17C}|Shopping.Client\\Shopping.Client.csproj|solutionrelative:shopping.client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B357236-20C7-4BCD-938F-616D998FCC01}|Shopping.API\\Shopping.API.csproj|c:\\users\\admin\\desktop\\devops\\sc_client\\shopping.api\\k8s\\testing.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -34,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,68 +62,134 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Startup.cs",
+              "RelativeDocumentMoniker": "Shopping.Client\\Startup.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Startup.cs",
+              "RelativeToolTip": "Shopping.Client\\Startup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T15:10:31.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Dockerfile",
+              "RelativeDocumentMoniker": "Shopping.Client\\Dockerfile",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Dockerfile",
+              "RelativeToolTip": "Shopping.Client\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-26T15:10:26.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Shopping.Client\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\appsettings.Development.json",
+              "RelativeToolTip": "Shopping.Client\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T15:52:41.848Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\appsettings.json",
+              "RelativeDocumentMoniker": "Shopping.Client\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\appsettings.json",
+              "RelativeToolTip": "Shopping.Client\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T15:52:37.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Shopping.Client\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Shopping.Client\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:51:36.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Shopping.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Shopping.API\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T15:35:28.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Shopping.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Program.cs",
+              "RelativeToolTip": "Shopping.Client\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T00:09:25.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Shopping.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\appsettings.json",
+              "RelativeToolTip": "Shopping.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T00:09:02.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProductContext.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Data\\ProductContext.cs",
               "RelativeDocumentMoniker": "Shopping.API\\Data\\ProductContext.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Data\\ProductContext.cs",
               "RelativeToolTip": "Shopping.API\\Data\\ProductContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABWAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T15:36:22.323Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Startup.cs",
               "RelativeDocumentMoniker": "Shopping.API\\Startup.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Startup.cs",
               "RelativeToolTip": "Shopping.API\\Startup.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCMAAAAxAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T15:35:35.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Program.cs",
-              "RelativeDocumentMoniker": "Shopping.API\\Program.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\Program.cs",
-              "RelativeToolTip": "Shopping.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T15:35:34.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Startup.cs",
-              "RelativeDocumentMoniker": "Shopping.Client\\Startup.cs",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.Client\\Startup.cs",
-              "RelativeToolTip": "Shopping.Client\\Startup.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwBsAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T15:33:31.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Testing-service.yml",
-              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\K8s\\Testing-service.yml",
-              "RelativeDocumentMoniker": "Shopping.API\\K8s\\Testing-service.yml",
-              "ToolTip": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\K8s\\Testing-service.yml",
-              "RelativeToolTip": "Shopping.API\\K8s\\Testing-service.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-09-23T14:54:02.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Testing.yml",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\DEVOPS\\SC_Client\\Shopping.API\\K8s\\Testing.yml",
               "RelativeDocumentMoniker": "Shopping.API\\K8s\\Testing.yml",

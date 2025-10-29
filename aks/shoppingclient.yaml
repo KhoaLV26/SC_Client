@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shoppingclient-deployment
+  labels:
+    app: shoppingclient
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shoppingclient
+  template:
+    metadata:
+      labels:
+        app: shoppingclient
+    spec:
+      containers:
+        - name: shoppingclient
+          image: shoppingapi.azurecr.io/shoppingclient:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              memory: "256Mi"
+              cpu: "250m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Development"
+            - name: ShoppingAPIUrl
+              valueFrom:
+                configMapKeyRef:
+                  name: shoppingapi-url
+                  key: ShoppingAPIUrl
+            - name: ASPNETCORE_URLS
+              value: "http://+:80" 
+      imagePullSecrets:
+        - name: acr-auth  
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shoppingclient-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: shoppingclient
+  ports:
+    - protocol: TCP
+      port: 80
+     
