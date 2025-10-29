@@ -9,6 +9,7 @@ trigger:
  paths:
   include:
   - Shopping.API/*
+  - shopping-api.yml
 
 resources:
 - repo: self
