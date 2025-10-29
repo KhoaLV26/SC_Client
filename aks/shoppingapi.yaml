@@ -30,7 +30,7 @@ spec:
           env:
             - name: ASPNETCORE_ENVIRONMENT
               value: "Development"
-            - name: CONNECTION_STRING
+            - name: DatabaseSettings__ConnectionString
               valueFrom:
                 configMapKeyRef:
                   name: mongo-url
