@@ -10,7 +10,8 @@ trigger:
   include:
   - Shopping.API/*
   - shopping-api.yml
-  - /aks/shoppingapi/*
+  - /aks/shoppingapi.yaml
+  - /aks/shoppingapi-configmap.yaml
   - /aks/mongo/*
 resources:
 - repo: self
