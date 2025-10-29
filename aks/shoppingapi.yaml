@@ -19,7 +19,7 @@ spec:
           image: shoppingapi.azurecr.io/shoppingapi:v1
           imagePullPolicy: Always
           ports:
-            - containerPort: 5555
+            - containerPort: 80
           resources:
             requests:
               memory: "256Mi"
@@ -35,8 +35,8 @@ spec:
                 configMapKeyRef:
                   name: mongo-url
                   key: CONNECTION_STRING
-            - name: ASPNETCORE_URLS
-              value: "http://+:5555"
+            # - name: ASPNETCORE_URLS
+            #   value: "http://+:5555"
       imagePullSecrets:
         - name: acr-auth
 ---
@@ -49,5 +49,5 @@ spec:
     app: shoppingapi
   ports:
     - protocol: TCP
-      port: 5555
-      targetPort: 5555
+      port: 80
+      # targetPort: 5555
