@@ -11,7 +11,7 @@ trigger:
   - Shopping.API/*
   - shopping-api.yml
   - /aks/shoppingapi/*
-
+  - /aks/mongo/*
 resources:
 - repo: self
 
