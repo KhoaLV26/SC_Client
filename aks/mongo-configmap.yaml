@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: mongo-url
 data:
-  CONNECTION_STRING: "mongodb://admin:password@mongo-service:27017/?authSource=admin"
+  CONNECTION_STRING: "mongodb://username:password@mongo-service:27017"
