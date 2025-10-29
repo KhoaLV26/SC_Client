@@ -45,9 +45,11 @@ kind: Service
 metadata:
   name: shoppingapi-service
 spec:
+  type: LoadBalancer
   selector:
     app: shoppingapi
   ports:
     - protocol: TCP
       port: 80
+      
       # targetPort: 5555
