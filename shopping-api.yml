@@ -80,7 +80,7 @@ stages:
               action: deploy
               # manifests: |
               #   $(Pipeline.Workspace)/manifests/deployment.yml
-              aks: |
+              manifests: |
                 $(Pipeline.Workspace)/aks/shoppingapi.yml
               imagePullSecrets: |
                 $(imagePullSecret)
