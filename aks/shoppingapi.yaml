@@ -35,6 +35,10 @@ spec:
                 configMapKeyRef:
                   name: mongo-url
                   key: CONNECTION_STRING
+            - name: DatabaseSettings__DatabaseName
+              value: "mongodb"
+            - name: DatabaseSettings__CollectionName
+              value: "Products"
             # - name: ASPNETCORE_URLS
             #   value: "http://+:5555"
       imagePullSecrets:
