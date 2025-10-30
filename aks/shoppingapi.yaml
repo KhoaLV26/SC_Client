@@ -36,7 +36,9 @@ spec:
                   name: mongo-secret
                   key: MONGO_INITDB_ROOT_PASSWORD
             - name: DatabaseSettings__ConnectionString
-              value: mongodb://root:$(MONGO_PASSWORD)@mongo-service:27017/mongodb
+              value: >-
+                    mongodb://root:$(MONGO_PASSWORD)@mongo-service:27017/mongodb?authSource=admin
+
             - name: DatabaseSettings__DatabaseName
               value: mongodb
             - name: DatabaseSettings__CollectionName
