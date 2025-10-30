@@ -28,19 +28,17 @@ spec:
               memory: "512Mi"
               cpu: "500m"
           env:
-            - name: ASPNETCORE_ENVIRONMENT
-              value: "Development"
-            - name: DatabaseSettings__ConnectionString
+            - name: MONGO_PASSWORD
               valueFrom:
-                configMapKeyRef:
-                  name: mongo-url
-                  key: CONNECTION_STRING
+                secretKeyRef:
+                  name: mongo-secret
+                  key: MONGO_INITDB_ROOT_PASSWORD
+            - name: DatabaseSettings__ConnectionString
+              value: mongodb://root:$(MONGO_PASSWORD)@mongo-service:27017/mongodb
             - name: DatabaseSettings__DatabaseName
-              value: "mongodb"
+              value: mongodb
             - name: DatabaseSettings__CollectionName
-              value: "Products"
-            # - name: ASPNETCORE_URLS
-            #   value: "http://+:5555"
+              value: Products
       imagePullSecrets:
         - name: acr-auth
 ---
