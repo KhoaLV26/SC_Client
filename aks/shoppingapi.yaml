@@ -28,6 +28,8 @@ spec:
               memory: "512Mi"
               cpu: "500m"
           env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Development"
             - name: MONGO_PASSWORD
               valueFrom:
                 secretKeyRef:
