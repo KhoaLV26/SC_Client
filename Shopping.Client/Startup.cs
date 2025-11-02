@@ -28,6 +28,8 @@ namespace Shopping.Client
                 client.BaseAddress = new Uri(Configuration["ShoppingAPIUrl"]);
             });
 
+            Console.WriteLine(">>> ShoppingAPIUrl = " + Configuration["ShoppingAPIUrl"]);
+
             services.AddControllersWithViews();
         }
 

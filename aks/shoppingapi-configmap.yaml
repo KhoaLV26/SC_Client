@@ -3,6 +3,4 @@ kind: ConfigMap
 metadata:
   name: shoppingapi-url
 data:
-  key: value
-  ShoppingAPIUrl: "http://shoppingapi-service"
-  
+  ShoppingAPIUrl: "http://shoppingapi-service:4444"

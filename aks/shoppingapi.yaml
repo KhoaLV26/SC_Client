@@ -19,7 +19,7 @@ spec:
           image: shoppingapi.azurecr.io/shoppingapi:v1
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 5555
           resources:
             requests:
               memory: "256Mi"
@@ -30,32 +30,24 @@ spec:
           env:
             - name: ASPNETCORE_ENVIRONMENT
               value: "Development"
-            - name: MONGO_PASSWORD
+            - name: CONNECTION_STRING
               valueFrom:
-                secretKeyRef:
-                  name: mongo-secret
-                  key: MONGO_INITDB_ROOT_PASSWORD
-            - name: DatabaseSettings__ConnectionString
-              value: >-
-                    mongodb://root:$(MONGO_PASSWORD)@mongo-service:27017/mongodb?authSource=admin
-
-            - name: DatabaseSettings__DatabaseName
-              value: mongodb
-            - name: DatabaseSettings__CollectionName
-              value: Products
-      imagePullSecrets:
-        - name: acr-auth
+                configMapKeyRef:
+                  name: mongo-url
+                  key: CONNECTION_STRING
+            - name: ASPNETCORE_URLS
+              value: "http://+:5555"
 ---
 apiVersion: v1
 kind: Service
 metadata:
   name: shoppingapi-service
 spec:
-  type: LoadBalancer
+  type: ClusterIP 
   selector:
     app: shoppingapi
   ports:
     - protocol: TCP
-      port: 80
-      
-      # targetPort: 5555
+      port: 4444
+      targetPort: 5555
+    

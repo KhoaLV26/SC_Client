@@ -19,7 +19,7 @@ spec:
           image: shoppingapi.azurecr.io/shoppingclient:v1
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 3333
           resources:
             requests:
               memory: "256Mi"
@@ -31,12 +31,9 @@ spec:
             - name: ASPNETCORE_ENVIRONMENT
               value: "Development"
             - name: ShoppingAPIUrl
-              valueFrom:
-                configMapKeyRef:
-                  name: shoppingapi-url
-                  key: ShoppingAPIUrl
+              value: "http://shoppingapi-service:4444"
             - name: ASPNETCORE_URLS
-              value: "http://+:80" 
+              value: "http://+:3333" 
       imagePullSecrets:
         - name: acr-auth  
 ---
@@ -50,5 +47,5 @@ spec:
     app: shoppingclient
   ports:
     - protocol: TCP
-      port: 80
-     
+      port: 6666
+      targetPort: 3333
