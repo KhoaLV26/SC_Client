@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: shoppingapi
-          image: shoppingapi.azurecr.io/shoppingapi:v1
+          image: shoppingapi.azurecr.io/shoppingapi:39
           imagePullPolicy: Always
           ports:
             - containerPort: 5555
