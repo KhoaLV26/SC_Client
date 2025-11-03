@@ -47,5 +47,5 @@ spec:
     app: shoppingclient
   ports:
     - protocol: TCP
-      port: 6666
+      port: 8080 
       targetPort: 3333
